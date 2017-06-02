@@ -1,0 +1,17 @@
+{
+  "name": "webdriverio-chrome-headless",
+  "private": true,
+  "scripts": {
+    "lint": "tslint --project tsconfig.json --type-check",
+    "compile": "tsc",
+    "start": "yarn compile && yarn lint && node ./target/index.js"
+  },
+  "dependencies": {
+    "@types/webdriverio": "4.7.0",
+    "tslint": "5.2.0",
+    "tslint-language-service": "0.9.5",
+    "typescript": "2.3.2",
+    "webdriverio": "4.8.0"
+  },
+  "devDependencies": {}
+}
